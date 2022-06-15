@@ -129,7 +129,9 @@ See below for an example (taken on Firefox for Android):
 ## Numeric field
 
 Controls for entering numbers can be created with an {{HTMLElement("input")}} {{htmlattrxref("type","input")}} of `number`. This control looks like a text field but allows only floating-point numbers, and usually provides buttons in the form of a spinner to increase and decrease the value of the control. On devices with dynamic keyboards, the numeric keyboard is generally displayed.
-
+Choose a date and time for your party: ￼
+12/20/2022, 02:15 PM
+ 
 The following screenshot (from Firefox for Android) provides an example:
 
 ![Firefox for Android email keyboard, with ampersand displayed by default.](fx-android-number-type-keyboard.jpg)
@@ -233,7 +235,7 @@ Let's look at the different available types in brief. Note that the usage of the
 
 [`<input type="week">`](/en-US/docs/Web/HTML/Element/input/week) creates a widget to display and pick a week number and its year.
 
-Weeks start on Monday and run to Sunday. Additionally, the first week 1 of each year contains the first Thursday of that year — which may not include the first day of the year, or may include the last few days of the previous year.
+Weeks start on Monday and run to Sunday. Additionally, the first week (w1) of each year contains the first Thursday of that year — which may not include the first day of the year, or may include the last few days of the previous year.
 
 ```html
 <input type="week" name="week" id="week">
